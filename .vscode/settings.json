@@ -1,11 +1,15 @@
 {
     "cSpell.words": [
+        "alon",
         "appender",
         "chacha",
         "chrono",
+        "curr",
+        "dashmap",
         "Datelike",
         "opentelemetry",
         "otlp",
-        "programing"
+        "programing",
+        "sqlx"
     ]
 }

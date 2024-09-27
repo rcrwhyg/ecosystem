@@ -38,7 +38,7 @@ targets = [
 # they are connected to another crate in the graph that hasn't been pruned,
 # so it should be used with care. The identifiers are [Package ID Specifications]
 # (https://doc.rust-lang.org/cargo/reference/pkgid-spec.html)
-#exclude = []
+#exclude = ["ring"]
 # If true, metadata will be collected with `--all-features`. Note that this can't
 # be toggled off if true, if you want to conditionally enable `--all-features` it
 # is recommended to pass `--all-features` on the cmd line instead
@@ -92,7 +92,11 @@ allow = [
     "MIT",
     "Apache-2.0",
     "Unicode-DFS-2016",
+    "MPL-2.0",
+    "BSD-2-Clause",
     "BSD-3-Clause",
+    "ISC",
+    "CC0-1.0",
     #"Apache-2.0 WITH LLVM-exception",
 ]
 # The confidence threshold for detecting a license from license text.
