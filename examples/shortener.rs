@@ -43,7 +43,7 @@ async fn main() -> Result<()> {
     let layer = Layer::new().with_filter(LevelFilter::INFO);
     tracing_subscriber::registry().with(layer).init();
 
-    let url = "postgres://alon:Alon199568@localhost:5432/shortener";
+    let url = "postgres://alon:along123456@localhost:5432/shortener";
     let state = AppState::try_new(url).await?;
     info!("Connected to database: {url}");
 
